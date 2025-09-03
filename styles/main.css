@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap");
+
+* {
+  font-family: "Readex Pro", sans-serif;
+}
+
+a {
+  color: white !important;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d33682 !important;
+  text-decoration: none;
+}
+
+/* Remember dash in streamlit means unordered list */
+/* meaning ul in html */
+
+ul {
+  list-style-type: none;
+}
+
+/* st.divider() or ("---") = hr in html */
+hr {
+  margin-top: 0;
+  margin-bottom: 5%;
+}
+
+/* to remove the hamburger menu at the top-right side in streamlit*/
+/* removes the footer, main menu and header */
+#MainMenu {
+  visibility: hidden;
+}
+
+footer {
+  visibility: hidden;
+}
+
+header {
+  visibility: hidden;
+}
